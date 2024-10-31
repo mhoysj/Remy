@@ -17,7 +17,7 @@ import platform
 #from pathlib import Path
 
 st.title('Generación Aumentada por Recuperación (RAG) 💬')
-image = Image.open('remylogo.png')
+image = Image.open('remylogo.jpg')
 st.write("Versión de Python:", platform.python_version())
 st.image(image, width=350)
 with st.sidebar:
